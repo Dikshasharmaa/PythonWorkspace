@@ -23,3 +23,8 @@ print(my_data[3])
 # to support immutable property I am gonna put square brackets and make it list. -> List is immutable
 my_data[3] = "awesome"
 print(my_data)
+
+#Delete Operations
+del my_data[3]
+print(my_data)
+print(data)
